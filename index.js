@@ -96,7 +96,7 @@ app.delete("/Music/removesong/:id", (req,res) => {
     let index = music.indexOf(song);
     let data1 = music.splice(index, 1);
     res.send(music);
-});
+}); 
 
 
 
